@@ -1,6 +1,15 @@
 # shreyas_camera_assignment
 
-A new Flutter application.
+flutter camera application.
+
+
+![Preview](screenshot/Screenshot_20210604-013103.jpg)
+
+
+![Preview](screenshot/Screenshot_20210604-013111.jpg)
+
+
+![Preview](screenshot/Screenshot_20210604-013119.jpg)
 
 ## Getting Started
 

@@ -24,10 +24,10 @@ class _GalleryScreenState extends State<GalleryScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).backgroundColor,
-      appBar: widget.scrollController.position. ? AppBar(
+      appBar:  AppBar(
         backgroundColor: Colors.black,
         title: Text("Preview"),
-      ):PreferredSize(child: Container(), preferredSize: Size(double.infinity,0)),
+      ),
       body: FutureBuilder(
         future: _getAllImages(),
         builder: (context, AsyncSnapshot<List<FileSystemEntity>> snapshot) {
