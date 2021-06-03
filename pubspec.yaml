@@ -28,6 +28,15 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  camera: ^0.5.6+3
+  path_provider: ^1.4.0
+  thumbnails:
+    git:
+      url: https://github.com/divyanshub024/Flutter_Thumbnails.git
+  video_player: ^0.10.2+5
+  esys_flutter_share: ^1.0.2
+  ext_storage: ^1.0.3
+
 
 
 dev_dependencies:
